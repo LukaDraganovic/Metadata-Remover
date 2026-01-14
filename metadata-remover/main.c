@@ -29,7 +29,7 @@ void my_error_exit(j_common_ptr cinfo)
 int main(int argc, char** argv)
 {
     if (argc != 3) {
-        fprintf(stderr, "Usage: %s input.jpg output.jpg\n", argv[0]);
+        fprintf(stderr, "Usage: %s input.jpg output.jpg\nMade by Luka Draganovic.", argv[0]);
         return 1;
     }
 
